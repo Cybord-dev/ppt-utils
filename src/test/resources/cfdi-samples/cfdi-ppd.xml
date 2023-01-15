@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Folio="00003" Fecha="%fecha-timbrado%" FormaPago="99" SubTotal="1069.50" Moneda="MXN" Total="1240.62" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" LugarExpedicion="20000">
+   <cfdi:Emisor Rfc="EKU9003173C9" Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601"/>
+   <cfdi:Receptor Rfc="CEGC350328EE8" Nombre="CATALINA CERVANTES GAZCA" DomicilioFiscalReceptor="72000" RegimenFiscalReceptor="626" UsoCFDI="G01" />
+   <cfdi:Conceptos>
+      <cfdi:Concepto ClaveProdServ="72101510" Cantidad="1" ClaveUnidad="E48" Unidad="SERVICIO" Descripcion="SERVICIO DE FONTANERIA" ValorUnitario="609.50" Importe="609.50" ObjetoImp="02">
+	  <cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="609.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="97.52" />
+			    </cfdi:Traslados>
+		</cfdi:Impuestos>
+	  </cfdi:Concepto>
+	  <cfdi:Concepto ClaveProdServ="40141700" Cantidad="2" ClaveUnidad="H87" Unidad="PZAS" Descripcion="LLAVES DE AGUA" ValorUnitario="230.00" Importe="460.00" ObjetoImp="02">
+         <cfdi:Impuestos>
+            <cfdi:Traslados>
+			   <cfdi:Traslado Base="460.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="73.60" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos>
+		 </cfdi:Concepto>
+   </cfdi:Conceptos>
+   <cfdi:Impuestos TotalImpuestosTrasladados="171.12">
+      <cfdi:Traslados>
+         <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="171.12" Base="1069.50" />
+      </cfdi:Traslados>
+   </cfdi:Impuestos>
+   <cfdi:Complemento />
+</cfdi:Comprobante>
+

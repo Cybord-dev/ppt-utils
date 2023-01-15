@@ -1,0 +1,134 @@
+{
+  "concepto": [
+    {
+      "impuestos": {
+        "traslados": {
+          "traslado": [
+            {
+              "base": 1,
+              "impuesto": "001",
+              "tipoFactor": "TASA",
+              "tasaOCuota": 0.16,
+              "importe": 1
+            }
+          ]
+        },
+        "retenciones": {
+          "retencion": [
+            {
+              "base": 1,
+              "impuesto": "001",
+              "tipoFactor": "TASA",
+              "tasaOCuota": 0.04,
+              "importe": 1
+            }
+          ]
+        }
+      },
+      "informacionAduanera": [
+        {
+          "numeroPedimento": "P34567"
+        }
+      ],
+      "cuentaPredial": [
+        {
+          "numero": "123456"
+        }
+      ],
+      "complementoConcepto": null,
+      "parte": [
+        {
+          "informacionAduanera": [
+            {
+              "numeroPedimento": "P34567"
+            }
+          ],
+          "claveProdServ": "P123456",
+          "noIdentificacion": "123456789",
+          "cantidad": 1,
+          "unidad": "litro",
+          "descripcion": "Parte descripcion",
+          "valorUnitario": 10,
+          "importe": 10
+        }
+      ],
+      "claveProdServ": "50211503",
+      "noIdentificacion": "None",
+      "cantidad": 1,
+      "claveUnidad": "H87",
+      "unidad": "Pieza",
+      "descripcion": "Cigarros",
+      "valorUnitario": 10,
+      "importe": 10,
+      "descuento": 0,
+      "objetoImp": "02",
+      "acuentaTerceros": {
+        "rfcACuentaTerceros": "EASC",
+        "nombreACuentaTerceros": "EJEMPLO",
+        "regimenFiscalACuentaTerceros": "Arrendamiento",
+        "domicilioFiscalACuentaTerceros": "Calle Siempre viva"
+      }
+    },
+    {
+      "impuestos": {
+        "traslados": {
+          "traslado": [
+            {
+              "base": 1,
+              "impuesto": "002",
+              "tipoFactor": "TASA",
+              "tasaOCuota": 0.16,
+              "importe": 2
+            }
+          ]
+        },
+        "retenciones": {
+          "retencion": []
+        }
+      },
+      "informacionAduanera": [
+        {
+          "numeroPedimento": "P3456"
+        }
+      ],
+      "cuentaPredial": [
+        {
+          "numero": "15835"
+        }
+      ],
+      "complementoConcepto": null,
+      "parte": [
+        {
+          "informacionAduanera": [
+            {
+              "numeroPedimento": "P345456"
+            }
+          ],
+          "claveProdServ": "P112356",
+          "noIdentificacion": "12345689",
+          "cantidad": 1,
+          "unidad": "pieza",
+          "descripcion": "Parte descripcion",
+          "valorUnitario": 10,
+          "importe": 10
+        }
+      ],
+      "claveProdServ": "45289",
+      "noIdentificacion": "None",
+      "cantidad": 1,
+      "claveUnidad": "H98",
+      "unidad": "Pieza",
+      "descripcion": "Papitas",
+      "valorUnitario": 9,
+      "importe": 9,
+      "descuento": 1,
+      "objetoImp": "01",
+      "acuentaTerceros": {
+        "rfcACuentaTerceros": "EASC",
+        "nombreACuentaTerceros": "EJEMPLO",
+        "regimenFiscalACuentaTerceros": "Arrendamiento",
+        "domicilioFiscalACuentaTerceros": "Calle Siempre viva"
+      }
+    }
+  ]
+}

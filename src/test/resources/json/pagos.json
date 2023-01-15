@@ -1,0 +1,148 @@
+{
+  "version": "2.0",
+  "totales": {
+    "totalRetencionesIVA": 0.2,
+    "totalRetencionesISR": 0.03,
+    "totalRetencionesIEPS": 0.04,
+    "totalTrasladosBaseIVA16": 1,
+    "totalTrasladosImpuestoIVA16": 0.16,
+    "totalTrasladosBaseIVA8": 0.05,
+    "totalTrasladosImpuestoIVA8": 0.06,
+    "totalTrasladosBaseIVA0": 0.07,
+    "totalTrasladosImpuestoIVA0": 0.09,
+    "totalTrasladosBaseIVAExento": 0.08,
+    "montoTotalPagos": 1.16
+  },
+  "pagos": [
+    {
+      "relacionados": [
+        {
+          "impuestosDR": {
+            "retencionesDR": {
+              "retencionDR": [
+                {
+                  "baseDR": 2,
+                  "impuestoDR": "002",
+                  "tipoFactorDR": "TASA",
+                  "tasaOCuotaDR": 0.16,
+                  "importeDR": 0.32
+                }
+              ]
+            },
+            "trasladosDR": {
+              "trasladoDR": [
+                {
+                  "baseDR": 1,
+                  "impuestoDR": "002",
+                  "tipoFactorDR": "TASA",
+                  "tasaOCuotaDR": 0.16,
+                  "importeDR": 0.16
+                }
+              ]
+            }
+          },
+          "idDocumento": "5BD612EA-DB91-441D-BF85-37F442796EC1",
+          "folio": "05051",
+          "monedaDR": "MXN",
+          "equivalenciaDR": 1,
+          "numParcialidad": 1,
+          "impSaldoAnt": 1.16,
+          "impPagado": 1.16,
+          "impSaldoInsoluto": 0,
+          "objetoImpDR": "02"
+        }
+      ],
+      "impuestosP": {
+        "retencionesP": {
+          "retencionP": [
+            {
+              "impuestoP": "002",
+              "importeP": 0.32
+            }
+          ]
+        },
+        "trasladosP": {
+          "trasladoP": [
+            {
+              "baseP": 1,
+              "impuestoP": "002",
+              "tipoFactorP": "TASA",
+              "tasaOCuotaP": 0.16,
+              "importeP": 0.16
+            }
+          ]
+        }
+      },
+      "fechaPago": "2021-12-20T12:00:00",
+      "formaDePagoP": "03",
+      "monedaP": "MXN",
+      "tipoCambioP": "1",
+      "monto": 1.16
+    },
+    {
+      "relacionados": [
+        {
+          "impuestosDR": {
+            "retencionesDR": {
+              "retencionDR": [
+                {
+                  "baseDR": 2,
+                  "impuestoDR": "002",
+                  "tipoFactorDR": "TASA",
+                  "tasaOCuotaDR": 0.16,
+                  "importeDR": 1.32
+                }
+              ]
+            },
+            "trasladosDR": {
+              "trasladoDR": [
+                {
+                  "baseDR": 1,
+                  "impuestoDR": "002",
+                  "tipoFactorDR": "TASA",
+                  "tasaOCuotaDR": 0.16,
+                  "importeDR": 2.16
+                }
+              ]
+            }
+          },
+          "idDocumento": "5BD612EA-ZRS-441D-BF85-37F442796EC1",
+          "folio": "05451",
+          "monedaDR": "MXN",
+          "equivalenciaDR": 1,
+          "numParcialidad": 1,
+          "impSaldoAnt": 1.16,
+          "impPagado": 1.16,
+          "impSaldoInsoluto": 0,
+          "objetoImpDR": "02"
+        }
+      ],
+      "impuestosP": {
+        "retencionesP": {
+          "retencionP": [
+            {
+              "impuestoP": "002",
+              "importeP": 1.32
+            }
+          ]
+        },
+        "trasladosP": {
+          "trasladoP": [
+            {
+              "baseP": 1,
+              "impuestoP": "002",
+              "tipoFactorP": "TASA",
+              "tasaOCuotaP": 0.16,
+              "importeP": 1.16
+            }
+          ]
+        }
+      },
+      "fechaPago": "2022-11-21T12:00:00",
+      "formaDePagoP": "03",
+      "monedaP": "MXN",
+      "tipoCambioP": "1",
+      "monto": 15.16
+    }
+  ]
+}

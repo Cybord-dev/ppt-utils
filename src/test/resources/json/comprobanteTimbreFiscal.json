@@ -1,0 +1,231 @@
+{
+  "informacionGlobal": {
+    "periodicidad": "diaria",
+    "meses": "enero",
+    "año": 2015
+  },
+  "cfdiRelacionados": [
+    {
+      "cfdiRelacionado": [
+        {
+          "uuid": "ba768b50-3191-4dcc-a82e-d5891ba8b6bd"
+        },
+        {
+          "uuid": "9da0ea46-ff93-4ef0-bb62-3a572057dde8"
+        }
+      ],
+      "tipoRelacion": "Relacion comercial"
+    }
+  ],
+  "emisor": {
+    "rfc": "rfcEmisor",
+    "nombre": "nombreEmisor",
+    "regimenFiscal": "regimenFiscalEmisor",
+    "facAtrAdquirente": "facAtrAdquirenteEmisor"
+  },
+  "receptor": {
+    "rfc": "rfcReceptior",
+    "nombre": "nombreReceptor",
+    "domicilioFiscalReceptor": "domicilioFiscalReceptor",
+    "residenciaFiscal": "MEX",
+    "numRegIdTrib": "numRegIdTribReceptor",
+    "regimenFiscalReceptor": "regimenFiscalReceptor",
+    "usoCFDI": "G_01"
+  },
+  "conceptos": {
+    "concepto": [
+      {
+        "impuestos": {
+          "traslados": {
+            "traslado": [
+              {
+                "base": 1,
+                "impuesto": "002",
+                "tipoFactor": "TASA",
+                "tasaOCuota": 0.16,
+                "importe": 1
+              }
+            ]
+          },
+          "retenciones": {
+            "retencion": [
+              {
+                "base": 1,
+                "impuesto": "002",
+                "tipoFactor": "TASA",
+                "tasaOCuota": 0.04,
+                "importe": 1
+              }
+            ]
+          }
+        },
+        "informacionAduanera": [
+          {
+            "numeroPedimento": "P34567"
+          }
+        ],
+        "cuentaPredial": [
+          {
+            "numero": "123456"
+          }
+        ],
+        "complementoConcepto": null,
+        "parte": [
+          {
+            "informacionAduanera": [
+              {
+                "numeroPedimento": "P34567"
+              }
+            ],
+            "claveProdServ": "P123456",
+            "noIdentificacion": "123456789",
+            "cantidad": 1,
+            "unidad": "litro",
+            "descripcion": "Parte descripcion",
+            "valorUnitario": 10,
+            "importe": 10
+          }
+        ],
+        "claveProdServ": "50211503",
+        "noIdentificacion": "None",
+        "cantidad": 1,
+        "claveUnidad": "H87",
+        "unidad": "Pieza",
+        "descripcion": "Cigarros",
+        "valorUnitario": 10,
+        "importe": 10,
+        "descuento": 0,
+        "objetoImp": "02",
+        "acuentaTerceros": {
+          "rfcACuentaTerceros": "EASC",
+          "nombreACuentaTerceros": "EJEMPLO",
+          "regimenFiscalACuentaTerceros": "Arrendamiento",
+          "domicilioFiscalACuentaTerceros": "Calle Siempre viva"
+        }
+      },
+      {
+        "impuestos": {
+          "traslados": {
+            "traslado": [
+              {
+                "base": 1,
+                "impuesto": "002",
+                "tipoFactor": "TASA",
+                "tasaOCuota": 0.16,
+                "importe": 2
+              }
+            ]
+          },
+          "retenciones": {
+            "retencion": [
+              {
+                "base": 1,
+                "impuesto": "002",
+                "tipoFactor": "TASA",
+                "tasaOCuota": 0.04,
+                "importe": 2
+              }
+            ]
+          }
+        },
+        "informacionAduanera": [
+          {
+            "numeroPedimento": "P3456"
+          }
+        ],
+        "cuentaPredial": [
+          {
+            "numero": "15835"
+          }
+        ],
+        "complementoConcepto": null,
+        "parte": [
+          {
+            "informacionAduanera": [
+              {
+                "numeroPedimento": "P345456"
+              }
+            ],
+            "claveProdServ": "P112356",
+            "noIdentificacion": "12345689",
+            "cantidad": 1,
+            "unidad": "pieza",
+            "descripcion": "Parte descripcion",
+            "valorUnitario": 10,
+            "importe": 10
+          }
+        ],
+        "claveProdServ": "45289",
+        "noIdentificacion": "None",
+        "cantidad": 1,
+        "claveUnidad": "H98",
+        "unidad": "Pieza",
+        "descripcion": "Papitas",
+        "valorUnitario": 9,
+        "importe": 9,
+        "descuento": 1,
+        "objetoImp": "01",
+        "acuentaTerceros": {
+          "rfcACuentaTerceros": "EASC",
+          "nombreACuentaTerceros": "EJEMPLO",
+          "regimenFiscalACuentaTerceros": "Arrendamiento",
+          "domicilioFiscalACuentaTerceros": "Calle Siempre viva"
+        }
+      }
+    ]
+  },
+  "impuestos": {
+    "retenciones": {
+      "retencion": [
+        {
+          "impuesto": "002",
+          "importe": 3
+        }
+      ]
+    },
+    "traslados": {
+      "traslado": [
+        {
+          "base": ".16",
+          "impuesto": "002",
+          "tipoFactor": "TASA",
+          "tasaOCuota": ".16",
+          "importe": 3
+        }
+      ]
+    },
+    "totalImpuestosRetenidos": 3,
+    "totalImpuestosTrasladados": 3
+  },
+  "complemento" : {
+    "any" : [{
+      "version" : "1.1",
+      "uuid" : "C79C971B-E9E8-4604-98E6-A33F027A796C",
+      "fechaTimbrado" : "2022-04-24T18:21:20",
+      "selloCFD" : "L96pF12v8qbZZuHi9/+FsvJ3+svfV4F0zQYtRaEcwwjaWFUbjw4VPNNiozdo2tmifAJBEofv21TyQg1zINK5Jw1U6pYKOjSIfcwNO14ULZe3aVHZXxjiHsyP4e4/jGphcMCN9ezk8mGF8jOpAd5nj1Iza8FH6fo52m8sbCbK90y2O7Co/+an/y7MJqf9kFBwiFVxNRuVIj56cJdEjWt8JhXB11OSLp8ZHKjc4ERiZqeYKTBUavDmNx3VvteYgSurTcwgQGKk5YdOWSzNr7Ax9RYBFtMAAs14uTIzPgZLtpp9snFJ7NHyq5oS5QF7hDPAcMuiPYdAITPAcv5TBSSusA==",
+      "rfcProvCertif" : "SPR190613I52",
+      "selloSAT" : "lq9Y6weXhuNxi97qqoXcZZ3N3Ea5OeiFoPwx2I73Lyh1CP2c0JrN2nkBUBpdEz/xo66w8wcRlO5g8qDbqzpa9VzE+CDcys09RKSopg+b8T6hT1g24UfA7UVFSMmnKoG0IKn1/qigHNLJke3dFsG/Ig/MNDKWhniquhff1emuvfVtR+AfCzQwH5nB/CYHcXZPq4Uoa7YdOZ1D/hQgzE83LTTwSm3G722VF1UrAf4DfbKsVkRYHwmBLrmTTtO8/MqgoD+gPEUfiWq7HcVdc3Dr8PrFBs2hvVyCf/vsNRfQpO3gY9yL70o4Ycwqwbhr7pdH02Du7XHoUkjjuyWpyaWCFw==",
+      "noCertificadoSAT" : "30001000000400002495"
+    } ]
+  },
+  "addenda": null,
+  "version": "4.0",
+  "serie": "PA73251",
+  "folio": "RAL-25968",
+  "fecha": "2022/12/01",
+  "sello": "qasqdber",
+  "formaPago": "efectivo",
+  "noCertificado": "noCertificado",
+  "certificado": "certificado",
+  "condicionesDePago": "condicionesDePago",
+  "subTotal": 10,
+  "descuento": 1,
+  "moneda": "MXN",
+  "tipoCambio": 1,
+  "total": 9,
+  "tipoDeComprobante": "I",
+  "exportacion": "exportacion",
+  "metodoPago": "PUE",
+  "lugarExpedicion": "lugarExpedicion",
+  "confirmacion": "confirmacion"
+}

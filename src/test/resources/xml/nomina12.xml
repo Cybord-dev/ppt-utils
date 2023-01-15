@@ -1,0 +1,45 @@
+<nom:Nomina Version="1.2" TipoNomina="E" FechaPago="string" FechaInicialPago="string" FechaFinalPago="string" NumDiasPagados="1000.000" TotalPercepciones="1000.00" TotalDeducciones="1000.00" TotalOtrosPagos="1000.00" xmlns:nom="http://www.sat.gob.mx/nomina12">
+  <!--Optional:-->
+  <nom:Emisor Curp="stringstringstring" RegistroPatronal="string" RfcPatronOrigen="stringstring">
+    <!--Optional:-->
+    <nom:EntidadSNCF OrigenRecurso="IF" MontoRecursoPropio="1000.00"/>
+  </nom:Emisor>
+  <nom:Receptor Curp="stringstringstring" NumSeguridadSocial="string" FechaInicioRelLaboral="string" Antigüedad="string" TipoContrato="09" Sindicalizado="Sí" TipoJornada="99" TipoRegimen="13" NumEmpleado="string" Departamento="string" Puesto="string" RiesgoPuesto="3" PeriodicidadPago="04" Banco="158" CuentaBancaria="100" SalarioBaseCotApor="1000.00" SalarioDiarioIntegrado="1000.00" ClaveEntFed="KS">
+    <!--Zero or more repetitions:-->
+    <nom:SubContratacion RfcLabora="stringstring" PorcentajeTiempo="100.000"/>
+  </nom:Receptor>
+  <!--Optional:-->
+  <nom:Percepciones TotalSueldos="1000.00" TotalSeparacionIndemnizacion="1000.00" TotalJubilacionPensionRetiro="1000.00" TotalGravado="1000.00" TotalExento="1000.00">
+    <!--1 or more repetitions:-->
+    <nom:Percepcion TipoPercepcion="023" Clave="string" Concepto="string" ImporteGravado="1000.00" ImporteExento="1000.00">
+      <!--Optional:-->
+      <nom:AccionesOTitulos ValorMercado="1000.000000" PrecioAlOtorgarse="1000.000000"/>
+      <!--Zero or more repetitions:-->
+      <nom:HorasExtra Dias="3" TipoHoras="02" HorasExtra="3" ImportePagado="1000.00"/>
+    </nom:Percepcion>
+    <!--Optional:-->
+    <nom:JubilacionPensionRetiro TotalUnaExhibicion="1000.00" TotalParcialidad="1000.00" MontoDiario="1000.00" IngresoAcumulable="1000.00" IngresoNoAcumulable="1000.00"/>
+    <!--Optional:-->
+    <nom:SeparacionIndemnizacion TotalPagado="1000.00" NumAñosServicio="3" UltimoSueldoMensOrd="1000.00" IngresoAcumulable="1000.00" IngresoNoAcumulable="1000.00"/>
+  </nom:Percepciones>
+  <!--Optional:-->
+  <nom:Deducciones TotalOtrasDeducciones="1000.00" TotalImpuestosRetenidos="1000.00">
+    <!--1 or more repetitions:-->
+    <nom:Deduccion TipoDeduccion="032" Clave="string" Concepto="string" Importe="1000.00"/>
+  </nom:Deducciones>
+  <!--Optional:-->
+  <nom:OtrosPagos>
+    <!--1 or more repetitions:-->
+    <nom:OtroPago TipoOtroPago="004" Clave="string" Concepto="string" Importe="1000.00">
+      <!--Optional:-->
+      <nom:SubsidioAlEmpleo SubsidioCausado="1000.00"/>
+      <!--Optional:-->
+      <nom:CompensacionSaldosAFavor SaldoAFavor="1000.00" Año="2016" RemanenteSalFav="1000.00"/>
+    </nom:OtroPago>
+  </nom:OtrosPagos>
+  <!--Optional:-->
+  <nom:Incapacidades>
+    <!--1 or more repetitions:-->
+    <nom:Incapacidad DiasIncapacidad="3" TipoIncapacidad="04" ImporteMonetario="1000.00"/>
+  </nom:Incapacidades>
+</nom:Nomina>

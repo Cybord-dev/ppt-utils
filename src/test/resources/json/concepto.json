@@ -1,0 +1,59 @@
+{
+  "claveProdServ":"50211503",
+  "noIdentificacion":"None",
+  "cantidad":"1.0",
+  "claveUnidad":"H87",
+  "unidad":"Pieza",
+  "descripcion":"Cigarros",
+  "valorUnitario":"10.00",
+  "importe":"10.00",
+  "descuento":"0.00",
+  "objetoImp":"02",
+  "impuestos":[
+    {
+      "traslados":[
+        {
+          "base":"10",
+          "importe":"1.6",
+          "impuesto":"002",
+          "tasaOCuota":"0.160000",
+          "tipoFactor":"Tasa"
+        }
+      ],
+      "retenciones":[
+        {
+          "base":"10",
+          "importe":".04",
+          "impuesto":"001",
+          "tasaOCuota":"0.040000",
+          "tipoFactor":"Tasa"
+        }
+      ]
+    }
+  ],
+  "informacionAduanera":{
+    "numeroPedimento":"P34567"
+  },
+  "cuentaPredial":{
+    "numero":"123456"
+  },
+  "parte":{
+    "informacionAduanera":{
+       "numeroPedimento":"P34567"
+    },
+    "noIdentificacion": "123456789",
+    "claveProdServ": "P123456",
+    "cantidad": "1",
+    "unidad": "litro",
+    "descripcion": "Parte descripcion",
+    "valorUnitario": "10.0",
+    "importe": "10.0"
+  },
+  "aCuentaTerceros": {
+    "rfcAcuentaTerceros": "EASC",
+    "nombreAcuentaTerceros": "EJEMPLO",
+    "regimenFiscalAcuentaTerceros": "Arrendamiento",
+    "domicilioFiscalAcuentaTerceros": "Calle Siempre viva"
+  }
+
+}

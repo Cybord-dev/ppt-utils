@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:donat="http://www.sat.gob.mx/donat" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd  http://www.sat.gob.mx/donat http://www.sat.gob.mx/sitio_internet/cfd/donat/donat11.xsd" Version="4.0" Serie="DONATIVO" Folio="129273" Fecha="%fecha-timbrado%" FormaPago="12" SubTotal="20000.00" Moneda="MXN" Total="20000.00" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="20000">
+  <cfdi:Emisor Rfc="EKU9003173C9" Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601" />
+    <cfdi:Receptor Rfc="CEGC350328EE8" Nombre="CATALINA CERVANTES GAZCA" DomicilioFiscalReceptor="72000" RegimenFiscalReceptor="626" UsoCFDI="G01" />
+   <cfdi:Conceptos>
+      <cfdi:Concepto ClaveProdServ="53102900" Cantidad="100" ClaveUnidad="H87" Unidad="H87" Descripcion="DONATIVO DE 100 UNIFORMES DEPORTIVOS" ValorUnitario="200.00" Importe="20000.00" ObjetoImp="01">
+      </cfdi:Concepto>
+   </cfdi:Conceptos>
+   <cfdi:Complemento><donat:Donatarias version="1.1" noAutorizacion="AA001V-00927" fechaAutorizacion="2021-12-21" leyenda="Este comprobante ampara un donativo, el cual será destinado por la donataria a los fines propios de su objeto social. En el caso de que los bienes donados hayan sido deducidos previamente para los efectos del impuesto sobre la renta, este donativo no es deducible. La reproducción no autorizada de este comprobante constituye un delito en los términos de las disposiciones fiscales." />
+   </cfdi:Complemento> 
+</cfdi:Comprobante>

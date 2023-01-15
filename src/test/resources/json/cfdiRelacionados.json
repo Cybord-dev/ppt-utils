@@ -1,0 +1,13 @@
+{
+  "tipoRelacion": "Relacion comercial",
+  "cfdiRelacionado":[
+    {
+      "uuid": "ba768b50-3191-4dcc-a82e-d5891ba8b6bd",
+      "tipoRelacion": "Relacion externa"
+    },
+    {
+      "uuid": "9da0ea46-ff93-4ef0-bb62-3a572057dde8",
+      "tipoRelacion": "Relacion externa"
+    }
+  ]
+}

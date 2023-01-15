@@ -1,0 +1,39 @@
+{
+  "pago": [
+    {
+      "doctoRelacionado": {
+        "folio": "P40758",
+        "idDocumento": "4568",
+        "impPagado": 757.14,
+        "impSaldoAnt": 1000.15,
+        "impSaldoInsoluto": 950.13,
+        "monedaDR": "MXN",
+        "metodoDePagoDR": "PUE",
+        "serie": "S2489875",
+        "numParcialidad": 1
+      },
+      "fechaPago": "2022-01-22",
+      "formaDePagoP": "Efectivo",
+      "monedaP": "MXN",
+      "monto": 5
+    },
+    {
+      "doctoRelacionado": {
+        "folio": "P40758",
+        "idDocumento": "4568",
+        "impPagado": 757.14,
+        "impSaldoAnt": 1000.15,
+        "impSaldoInsoluto": 950.13,
+        "monedaDR": "MXN",
+        "metodoDePagoDR": "PUE",
+        "serie": "S2489875",
+        "numParcialidad": 1
+      },
+      "fechaPago": "2022-01-23",
+      "formaDePagoP": "Data",
+      "monedaP": "MXN",
+      "monto": 5
+    }
+  ],
+  "version": "1.1"
+}

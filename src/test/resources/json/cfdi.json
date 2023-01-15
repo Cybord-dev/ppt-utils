@@ -1,0 +1,183 @@
+{
+  "serie": "PA73251",
+  "folio": "RAL-25968",
+  "fecha": "2022/12/01",
+  "sello": "qasqdber",
+  "formaPago": "efectivo",
+  "metodoPago": "PUE",
+  "noCertificado": "noCertificado",
+  "certificado": "certificado",
+  "condicionesDePago": "condicionesDePago",
+  "subtotal": "19.00",
+  "descuento": "2.00",
+  "total": "19.04",
+  "moneda": "MXN",
+  "tipoCambio": "1.0",
+  "tipoDeComprobante": "I",
+  "exportacion": "exportacion",
+  "lugarExpedicion": "lugarExpedicion",
+  "confirmacion": "confirmacion",
+  "informacionGlobal": {
+    "periodicidad": "diaria",
+    "meses": "enero",
+    "anio": "2015"},
+  "cfdiRelacionados":{"cfdiRelacionado":[{"uuid":"ba768b50-3191-4dcc-a82e-d5891ba8b6bd","tipoRelacion":"Relacion externa"},{"uuid":"9da0ea46-ff93-4ef0-bb62-3a572057dde8","tipoRelacion":"Relacion externa"}],"tipoRelacion":"Relacion comercial"},
+  "emisor": {
+    "rfc": "rfcEmisor",
+    "nombre": "nombreEmisor",
+    "regimenFiscal": "regimenFiscalEmisor",
+    "facAtrAdquirente": "facAtrAdquirenteEmisor",
+    "direccion": "direccionEmisor"},
+  "receptor": {
+    "rfc": "rfcReceptior",
+    "nombre": "nombreReceptor",
+    "domicilioFiscalReceptor": "domicilioFiscalReceptor",
+    "residenciaFiscal": "MEX",
+    "numRegIdTrib": "numRegIdTribReceptor",
+    "regimenFiscalReceptor": "regimenFiscalReceptor",
+    "usoCfdi": "G01",
+    "direccion": "direccionReceptor"},
+  "conceptos":[
+    {
+    "claveProdServ":"50211503",
+    "noIdentificacion":"None",
+    "cantidad":"1.0",
+    "claveUnidad":"H87",
+    "unidad":"Pieza",
+    "descripcion":"Cigarros",
+    "valorUnitario":"10.00",
+    "importe":"10.00",
+    "descuento":"1.00",
+    "objetoImp":"02",
+    "impuestos":[
+      {
+        "traslados":[
+          {
+            "base":"9",
+            "importe":"1.44",
+            "impuesto":"002",
+            "tasaOCuota":"0.160000",
+            "tipoFactor":"Tasa"
+          }
+        ],
+        "retenciones":[
+          {
+            "base":"9",
+            "importe":"0.36",
+            "impuesto":"002",
+            "tasaOCuota":"0.040000",
+            "tipoFactor":"Tasa"
+          }
+        ]
+      }
+    ],
+    "informacionAduanera":{
+      "numeroPedimento":"P34567"
+    },
+    "cuentaPredial":{
+      "numero":"123456"
+    },
+    "parte":{
+      "informacionAduanera":{
+        "numeroPedimento":"P34567"
+      },
+      "noIdentificacion": "123456789",
+      "claveProdServ": "P123456",
+      "cantidad": "1",
+      "unidad": "litro",
+      "descripcion": "Parte descripcion",
+      "valorUnitario": "10.0",
+      "importe": "10.0"
+    },
+    "aCuentaTerceros": {
+      "rfcAcuentaTerceros": "EASC",
+      "nombreAcuentaTerceros": "EJEMPLO",
+      "regimenFiscalAcuentaTerceros": "Arrendamiento",
+      "domicilioFiscalAcuentaTerceros": "Calle Siempre viva"
+    }},
+    {
+      "claveProdServ":"45289",
+      "noIdentificacion":"None",
+      "cantidad":"1.0",
+      "claveUnidad":"H98",
+      "unidad":"Pieza",
+      "descripcion":"Papitas",
+      "valorUnitario":"9.00",
+      "importe":"9.00",
+      "descuento":"1.00",
+      "objetoImp":"02",
+      "impuestos":[
+        {
+          "traslados":[
+            {
+              "base":"8",
+              "importe":"1.28",
+              "impuesto":"002",
+              "tasaOCuota":"0.160000",
+              "tipoFactor":"Tasa"
+            }
+          ],
+          "retenciones":[
+            {
+              "base":"8",
+              "importe":"0.32",
+              "impuesto":"002",
+              "tasaOCuota":"0.040000",
+              "tipoFactor":"Tasa"
+            }
+          ]
+        }
+      ],
+      "informacionAduanera":{
+        "numeroPedimento":"P3456"
+      },
+      "cuentaPredial":{
+        "numero":"15835"
+      },
+      "parte":{
+        "informacionAduanera":{
+          "numeroPedimento":"P345456"
+        },
+        "noIdentificacion": "12345689",
+        "claveProdServ": "P112356",
+        "cantidad": "1",
+        "unidad": "pieza",
+        "descripcion": "Parte descripcion",
+        "valorUnitario": "10.0",
+        "importe": "10.0"
+      },
+      "aCuentaTerceros": {
+        "rfcAcuentaTerceros": "EASC",
+        "nombreAcuentaTerceros": "EJEMPLO",
+        "regimenFiscalAcuentaTerceros": "Arrendamiento",
+        "domicilioFiscalAcuentaTerceros": "Calle Siempre viva"
+      }}],
+  "impuestos": [
+    {
+      "traslados":[
+        {
+          "base":"17",
+          "importe":"2.72",
+          "impuesto":"002",
+          "tasaOCuota":"0.160000",
+          "tipoFactor":"Tasa"
+        }
+      ],
+      "retenciones":[
+        {
+          "base":"17",
+          "importe":"0.68",
+          "impuesto":"002",
+          "tasaOCuota":"0.040000",
+          "tipoFactor":"Tasa"
+        }
+      ],
+      "totalImpuestosTrasladados": "2.72",
+      "totalImpuestosRetenidos": "0.68"
+    }
+  ],
+  "complemento": [],
+  "adenda": []
+
+
+}
